@@ -3,7 +3,7 @@
  * @since 2019-04-25
  */
 
-import { importEntry } from 'import-html-entry';
+import { importEntry } from 'import-html-entry-externals';
 import { isFunction } from 'lodash';
 import { registerApplication, start as startSpa } from 'single-spa';
 import { Fetch, RegistrableApp, StartOpts } from './interfaces';

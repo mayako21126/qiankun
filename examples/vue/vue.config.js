@@ -1,3 +1,15 @@
+/*
+ * @Description:
+ * @Version: 2.0
+ * @Autor: mayako
+ * @Date: 2019-11-26 15:48:32
+ * @LastEditors: mayako
+ * @LastEditTime: 2019-11-26 16:34:23
+ */
+const autoImport = require('babel-plugin-auto-import-externals');
+
+const defaultSettings = require('./settings.js');
+
 const path = require('path');
 
 function resolve(dir) {
@@ -39,6 +51,11 @@ module.exports = {
         '@': resolve('src'),
       },
     },
+    plugins: [
+      new autoImport({
+        setting: defaultSettings,
+      }),
+    ],
     output: {
       // 把子应用打包成 umd 库格式
       library: '[name]',
