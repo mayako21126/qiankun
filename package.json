@@ -63,7 +63,6 @@
   "homepage": "https://github.com/kuitos/qiankun#readme",
   "dependencies": {
     "@babel/runtime": "^7.10.5",
-    "import-html-entry-externals": "^0.9.83",
     "lodash": "^4.17.11",
     "single-spa": "5.8.1",
     "tslib": "^1.10.0"
@@ -79,6 +78,7 @@
     "eslint-plugin-eslint-comments": "^3.2.0",
     "father-build": "^1.7.0",
     "husky": "^2.3.0",
+    "import-html-entry-externals": "^1.11.0",
     "jest": "^25.2.2",
     "levenary": "^1.1.1",
     "lint-staged": "^9.4.2",
