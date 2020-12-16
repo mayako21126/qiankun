@@ -3,7 +3,7 @@
  * @since 2019-02-26
  */
 
-import { Entry, importEntry, ImportEntryOpts } from 'import-html-entry';
+import { Entry, importEntry, ImportEntryOpts } from 'import-html-entry-externals';
 import { isFunction } from 'lodash';
 import { getAppStatus, getMountedApps, NOT_LOADED } from 'single-spa';
 import { AppMetadata, PrefetchStrategy } from './interfaces';

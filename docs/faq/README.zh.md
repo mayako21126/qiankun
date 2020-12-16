@@ -613,7 +613,7 @@ import 'core-js/web/url';
 
 ## 报错 `Here is no "fetch" on the window env, you need to polyfill it`
 
-qiankun 依赖的 import-html-entry 通过 `window.fetch` 来获取微应用的资源，部分[不支持 fetch 的浏览器](https://caniuse.com/#search=fetch)需要在入口处打上相应的 [polyfill](https://github.com/github/fetch)
+qiankun 依赖的 import-html-entry-externals 通过 `window.fetch` 来获取微应用的资源，部分[不支持 fetch 的浏览器](https://caniuse.com/#search=fetch)需要在入口处打上相应的 [polyfill](https://github.com/github/fetch)
 
 ## 非 webpack 构建的微应用支持接入 qiankun 么？
 

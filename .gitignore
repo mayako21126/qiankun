@@ -19,3 +19,5 @@ package-lock.json
 .eslintcache
 .history
 .now
+.yalc
+yalc.lock

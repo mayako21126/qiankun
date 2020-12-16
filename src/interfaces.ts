@@ -2,7 +2,7 @@
  * @author kuitos
  * @since 2019-05-16
  */
-import { ImportEntryOpts } from 'import-html-entry';
+import { ImportEntryOpts } from 'import-html-entry-externals';
 import { RegisterApplicationConfig, StartOpts, Parcel } from 'single-spa';
 
 declare global {
